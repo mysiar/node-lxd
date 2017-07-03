@@ -270,7 +270,7 @@ var Container = utils.class_('Container', {
 
   /**
    * Gets the architecture.
-   * @returns {number}
+   * @returns {string}
    */
   architecture: function() {
     return this._metadata.architecture;
@@ -305,7 +305,7 @@ var Container = utils.class_('Container', {
    * @return {int}
    */
   statusCode: function() {
-    return this._metadata.status_code;
+    return this._metadata.state.status_code;
   },
 
   /**
