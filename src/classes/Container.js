@@ -305,7 +305,7 @@ var Container = utils.class_('Container', {
    * @return {int}
    */
   statusCode: function() {
-    return this._metadata.state.status_code;
+    return this._metadata.state.status.status_code;
   },
 
   /**
