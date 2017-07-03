@@ -16,7 +16,7 @@ var utils = {
    * @param {string} name The name.
    * @param {object?} inherit The inherited type, optional.
    * @param {{}} tbl The reference table.
-   * @retuens {object}
+   * @returns {object}
    */
   class_: function(name, inherit, tbl) {
     // process args

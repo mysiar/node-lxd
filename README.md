@@ -1,4 +1,5 @@
 [![npm version](https://badge.fury.io/js/node-lxd.svg)](https://badge.fury.io/js/node-lxd)
+[![Known Vulnerabilities](https://snyk.io/test/github/mysiar/node-lxd/badge.svg)](https://snyk.io/test/github/mysiar/node-lxd)
 
 A client for communicating with a local or remote instance of linux containers. The interface is object-oriented, simple and uniform.
 
