@@ -301,6 +301,14 @@ var Container = utils.class_('Container', {
   },
 
   /**
+   * Get status code
+   * @return {int}
+   */
+  statusCode: function() {
+    return this._metadata.status_code;
+  },
+
+  /**
    * Gets the container name or sets the container name.
    * @param {string?} name
    * @param {function?} callback
