@@ -21,7 +21,7 @@
     "test": "test/test.js"
   },
   "dependencies" : {
-    "request" : "2.69.0",
+    "request" : "2.81.1",
     "ws-unix" : "1.0.2"
   },
   "author" : {
